@@ -1,30 +1,40 @@
 <template>
-  <nav> 
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-
-  </nav>
-  <router-view/>
+  <div class="flex w-full h-full">
+    <menu_nav v-if="this.$store.state.show_menu" />
+    <home/>
+  </div>
 </template>
 
+<script>
+import menu_nav from './components/MenuViews.vue'
+import home from './views/HomeView.vue'
+export default {
+  components:{
+    menu_nav,
+    home,
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
-}
+</style>
 
-nav a {
-  font-weight: bold;
+<style>
+.bg_1{
+  background:#233000;
 }
-
-nav a.router-link-exact-active {
-  color: #42b983;
+.font_rufin{
+  font-family: 'Rufina';
+}
+.font_lato{
+  font-family: 'Lato';
+}
+#container_navigation{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
