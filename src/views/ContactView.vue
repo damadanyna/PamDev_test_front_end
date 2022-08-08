@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col w-full h-auto overflow-hidden  ">  
-    <div id="text-white container_navigation" class=" flex-row font_rufin h-screen text-white items-center flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../assets/image/contacte/Image.png')})`}" >
+    <div id="container_navigation" class=" flex-row font_rufin h-screen text-white items-center flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../assets/image/contacte/Image.png')})`}" >
       <div class=" font_rufin w-full flex flex-col">
         <span class=" text-8xl">Get in Touch</span>
         <span class="  text-g w-96 text-xl">The freshest ingredients for you every day</span>
