@@ -9,7 +9,7 @@
 <script>
 import menu_nav from './components/MenuViews.vue'
 import header_comp from './components/HeaderView.vue'
-import home from './views/AboutView.vue'
+import home from './views/ContactView.vue'
 export default {
   components:{
     menu_nav,
@@ -27,7 +27,9 @@ export default {
 .bg_1{
   background:#233000;
 }
-
+.bg_3{
+  background:#5E6600;
+}
 .font_rufin{
   font-family: 'Rufina';
 }
