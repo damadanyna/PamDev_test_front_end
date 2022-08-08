@@ -223,7 +223,7 @@
               <span class=" text-lg font-bold">Name*</span>
              <input class=" py-1 placeholder-black border border-black w-full"  type="text">  
             </div>
-            <div class="flex flex-col mt-3">
+            <div class="flex flex-col mt-3">.3
               <span class=" text-lg font-bold">Email*</span>
              <input class=" py-1 placeholder-black border border-black w-full"  type="text">  
             </div>
