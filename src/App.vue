@@ -1,15 +1,15 @@
 <template>
-  <div class="flex w-full h-full">
+  <div class="flex w-full ">
     <header_comp></header_comp>
     <menu_nav v-if="this.$store.state.show_menu" />
-    <home  />
+    <home />
   </div>
 </template>
 
 <script>
 import menu_nav from './components/MenuViews.vue'
 import header_comp from './components/HeaderView.vue'
-import home from './views/HomeView.vue'
+import home from './views/MenuView.vue'
 export default {
   components:{
     menu_nav,
@@ -39,9 +39,13 @@ export default {
 }
 #container_navigation{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+ .bg_2{
+  background: #EBF0E4;
+ }
 </style>

@@ -267,9 +267,6 @@ export default {
   background:#5E6600;
   color: white;
  }
- .bg_2{
-  background: #EBF0E4;
- }
  .color_txt{
   color: #233000;
  }
