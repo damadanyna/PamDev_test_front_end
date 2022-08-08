@@ -1,0 +1,119 @@
+<template>
+    <div class="flex flex-col w-full h-auto overflow-hidden  ">  
+        <div id="container_navigation" class=" flex-col items-center font_rufin h-screen text-white flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../assets/image/port_folio_no_side_bar/Image.png')})`}" >
+            <span class=" text-8xl">Deep Sea Snow White </span>
+            <span class=" text-8xl">Cod Fillet</span>
+            <div class=" absolute -bottom-9">
+                <svg width="28" height="293" viewBox="0 0 48 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.088 2.432C15.664 1.536 16.4 1.088 17.296 1.088C18.5333 1.088 19.3013 2.06933 19.6 4.032C17.616 4.37333 16.24 5.09867 15.472 6.208C14.7893 7.18933 14.448 8.224 14.448 9.312C14.448 10.4213 14.7787 11.3707 15.44 12.16C16.1227 12.9707 17.232 13.376 18.768 13.376C19.92 13.376 20.8267 12.96 21.488 12.128C22.1707 11.3173 22.768 10.2827 23.28 9.024C23.792 7.76533 24.144 6.912 24.336 6.464C24.5493 6.016 24.8587 5.44 25.264 4.736C25.6693 4.05333 26.0533 3.54133 26.416 3.2C27.3973 2.34667 28.528 1.92 29.808 1.92C31.8133 1.92 33.328 2.66667 34.352 4.16C35.376 5.65333 35.888 7.73333 35.888 10.4C35.888 11.9147 35.7173 13.6747 35.376 15.68L30.64 15.68V14.624L34.416 13.344C34.7573 12.2773 34.928 11.1893 34.928 10.08C34.928 8.992 34.576 8.04267 33.872 7.232C33.1893 6.42133 32.1653 6.016 30.8 6.016C29.2427 6.016 28.08 6.72 27.312 8.128C26.9493 8.832 26.5867 9.664 26.224 10.624C25.8613 11.584 25.584 12.2773 25.392 12.704C25.2213 13.1307 24.9333 13.696 24.528 14.4C24.144 15.104 23.76 15.6267 23.376 15.968C22.992 16.3093 22.48 16.6187 21.84 16.896C21.2213 17.1733 20.5387 17.312 19.792 17.312C17.9787 17.312 16.496 16.544 15.344 15.008C14.192 13.472 13.616 11.3707 13.616 8.704C13.616 6.05867 14.1067 3.968 15.088 2.432ZM24.432 30.343C24.8587 30.4497 25.3387 30.503 25.872 30.503C26.4267 30.503 26.992 30.343 27.568 30.023C28.5067 29.5537 28.976 28.839 28.976 27.879C28.976 25.319 26.5653 24.039 21.744 24.039C16.944 24.039 14.544 25.351 14.544 27.975C14.544 29.959 15.504 31.5483 17.424 32.743C17.2747 33.2123 17.04 33.447 16.72 33.447C16.4213 33.447 16.0373 33.2443 15.568 32.839C15.12 32.455 14.6827 31.7723 14.256 30.791C13.8507 29.831 13.648 28.7217 13.648 27.463C13.648 25.0523 14.384 23.143 15.856 21.735C17.3493 20.3483 19.3333 19.655 21.808 19.655C24.304 19.655 26.288 20.3803 27.76 21.831C29.232 23.2817 29.968 25.319 29.968 27.943C29.968 28.7537 29.8613 29.5537 29.648 30.343C29.456 31.1323 29.0293 31.879 28.368 32.583C27.7067 33.287 26.9067 33.639 25.968 33.639C25.0507 33.639 24.4533 33.223 24.176 32.391C24.0693 32.0923 24.016 31.7617 24.016 31.399C24.016 31.0363 24.1547 30.6843 24.432 30.343ZM25.84 41.6323C26.992 41.9949 27.9733 42.6563 28.784 43.6163C29.5947 44.5976 30 45.4829 30 46.2723C30 47.0829 29.7973 47.6269 29.392 47.9043C29.008 48.1816 28.688 48.3203 28.432 48.3203C27.5573 48.3203 26.928 48.0003 26.544 47.3603C26.8853 46.9336 27.056 46.2936 27.056 45.4403C27.056 44.6083 26.7893 43.7763 26.256 42.9443C25.744 42.1123 25.1787 41.6963 24.56 41.6963H14.928L14.736 44.5763H14V35.6483H14.736L14.896 37.7603H28.56L28.688 35.1683H29.424L29.776 41.6963L25.84 41.5043V41.6323ZM15.952 63.9933C14.416 62.4999 13.648 60.4626 13.648 57.8813C13.648 55.2999 14.416 53.2626 15.952 51.7693C17.488 50.2759 19.44 49.5293 21.808 49.5293C24.176 49.5293 26.128 50.2759 27.664 51.7693C29.2 53.2626 29.968 55.2999 29.968 57.8813C29.968 60.4626 29.2 62.4999 27.664 63.9933C26.128 65.4866 24.176 66.2333 21.808 66.2333C19.44 66.2333 17.488 65.4866 15.952 63.9933ZM21.808 53.9773C16.88 53.9773 14.416 55.2786 14.416 57.8813C14.416 60.4839 16.88 61.7853 21.808 61.7853C24.2187 61.7853 26.0427 61.4973 27.28 60.9213C28.5387 60.3453 29.168 59.3319 29.168 57.8813C29.168 56.4306 28.5387 55.4173 27.28 54.8413C26.0427 54.2653 24.2187 53.9773 21.808 53.9773ZM14 76.3648V68.1088H14.736L14.928 70.1888H36.976L37.072 67.4367H37.84L38.576 74.2848H14.928L14.736 76.3648H14ZM14 85.896V77.64H14.736L14.928 79.72H36.976L37.072 76.968H37.84L38.576 83.816H14.928L14.736 85.896H14Z" fill="white"/>
+                <line x1="21" y1="106" x2="21" y2="332" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="8 8"/>
+                </svg>
+            </div>
+        </div>
+        <div class=" px-20 h-screen z-10">
+            <div class=" flex flex-row py-36">
+                <div class="flex">    
+                    <img class=" w-96" src="../assets/image/port_folio_no_side_bar/Image_1.png" alt="photo">
+                </div>
+                <div class=" flex flex-col w-2/3">
+                    <div class=" w-full flex justify-end ">    
+                        <div class=" flex flex-col mr-32">
+                            <span class=" font_rufin text-3xl">Melt in Your Mouth</span>
+                            <span class=" font_rufin text-lg text-gray-500  mt-8">Lorem ipsum dolor sit amet, consectetur  </span>
+                            <span class=" font_rufin text-lg text-gray-500 "> adipiscing elit. </span>
+                            <span class=" font_rufin text-lg text-gray-500  mt-8">Lorem ipsum dolor sit amet, consectetur </span>
+                            <span class=" font_rufin text-lg text-gray-500 "> Et in sed in pellentesque ornare</span>
+                            <span class=" font_rufin text-lg text-gray-500 "> nunc nisl. Augue habitant accumsan, ut</span>
+                            <span class=" font_rufin text-lg text-gray-500 ">parturient orci ac etiam congue mi.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" relative  px-20 h-screen">
+            <div class=" config_2_">
+                <div class=" flex flex-row h-full justify-center">
+                    <img class=" pr-6" src="../assets/image/port_folio_no_side_bar/Image_2.png" alt="photo">
+                    <div class=" flex h-full justify-end pb-20  flex-col" style=" height:90vh">
+                        <span class=" font_rufin text-5xl font-semibold">The Best Taste</span>
+                        <span class=" text-gray-500 font-semibold">Lorem ipsum dolor sit amet, consectetur. </span>
+                        <span class=" text-gray-500 font-semibold"> adipiscing elit. </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <div class=" flex-col flex">
+                <span class=" text-lg">Lorem ipsum dolor sit amet, consectetur</span>
+                <span class=" text-lg">adipiscing elit. Et in sed in pellentesque ornare</span>
+                <span class=" text-lg"> nunc nisl. Augue habitant accumsan, ut</span>
+                <span class=" text-lg">parturient orci ac etiam congue mi.</span>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center mt-9">
+            <div class=" flex-col flex -ml-10">
+                <span class=" font_rufin text-4xl font-bold mb-8">Cooking Suggestions</span>
+                <span class=" text-lg">Lorem ipsum dolor sit amet, consectetur </span>
+                <span class=" text-lg">adipiscing elit.</span>
+            </div>
+        </div>
+        <div class=" flex justify-center mt-12 px-32">
+            <img src="../assets/image/port_folio_no_side_bar/bread.png" alt="photo">
+        </div>
+        <div class="flex flex-row justify-between px-20 mt-14 py-14 bg_2 ">
+            <div class=" flex justify-center flex-col items-center">
+                <div>
+                    <svg width="48" height="28" viewBox="0 0 48 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.7642 0.981934L16.4922 3.77L8.19386 12.0625H47.0659V15.9375H8.19386L16.4902 24.2319L13.7642 27.0181L0.749981 14L13.7642 0.981934Z" fill="#233000"/>
+                    </svg>
+                    <span>previous  Page</span>
+                </div>
+                <div class=" font_rufin text-3xl">Strip Steak With Rosemary Butter</div>
+            </div>
+            <div>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="18" cy="4" r="4" fill="black"/>
+                    <circle cx="18" cy="18" r="4" fill="black"/>
+                    <circle cx="18" cy="32" r="4" fill="black"/>
+                    <circle cx="32" cy="4" r="4" fill="black"/>
+                    <circle cx="32" cy="18" r="4" fill="black"/>
+                    <circle cx="32" cy="32" r="4" fill="black"/>
+                    <circle cx="4" cy="4" r="4" fill="black"/>
+                    <circle cx="4" cy="18" r="4" fill="black"/>
+                    <circle cx="4" cy="32" r="4" fill="black"/>
+                    </svg>
+
+            </div>
+            <div class=" flex justify-center flex-col items-center">
+                <div>
+                    <svg width="48" height="28" viewBox="0 0 48 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M34.0517 0.981934L31.3237 3.77L39.6221 12.0625H0.75V15.9375H39.6221L31.3257 24.2319L34.0517 27.0181L47.0659 14L34.0517 0.981934Z" fill="#233000"/>
+                    </svg>
+                    <span>Next page</span>
+                </div>
+                <div  class=" font_rufin text-3xl">Option of natural wine available</div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped>
+.config_2_{
+    display: flex ;
+    position: absolute;
+    margin-top: -23vh;
+    z-index: 0;
+    padding-left: 10vw;
+}
+
+.config_2_ img{
+    width: 50vw;
+}
+
+</style>

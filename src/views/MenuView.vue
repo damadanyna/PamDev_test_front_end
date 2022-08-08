@@ -13,7 +13,7 @@
       </div>
       <div class="flex flex-row justify-between px-16">
         <div class="flex pr-14 pl-6">
-          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image1.png" alt="">
+          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image1.png" alt="photo">
         </div>
         <div>
           <div class=" flex flex-col w-full ">
@@ -44,7 +44,7 @@
       </div>
       <div class="flex flex-row-reverse justify-between px-16">
         <div class="flex pl-14 pr-6">
-          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image2.png" alt="">
+          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image2.png" alt="photo">
         </div>
         <div>
           <div class=" flex flex-col w-full pl-8 ">
@@ -73,7 +73,7 @@
       </div>
       <div class="flex flex-row justify-between px-16">
         <div class="flex pl-14 pr-6">
-          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image3.png" alt="">
+          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image3.png" alt="photo">
         </div>
         <div>
           <div class=" flex flex-col w-full pl-8 ">

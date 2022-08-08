@@ -9,7 +9,7 @@
 <script>
 import menu_nav from './components/MenuViews.vue'
 import header_comp from './components/HeaderView.vue'
-import home from './views/PortfolioGridView.vue'
+import home from './views/SinglePostWithSide.vue'
 export default {
   components:{
     menu_nav,

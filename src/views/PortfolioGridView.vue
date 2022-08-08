@@ -20,7 +20,7 @@
         </div>
         <div class=" flex flex-row px-20">
             <div class="p-10">
-                <img src="../assets/image/port_folio_grid/Feature_Image.png" alt="">
+                <img src="../assets/image/port_folio_grid/Feature_Image.png" alt="photo">
                 <div class=" relative config_ pt-32 pb-5 pl-7 w-full ">
                     <div class=" text-white  text-4xl flex flex-col font_rufin">
                         <span class="">Premium Deep Sea Snow</span>
@@ -34,7 +34,7 @@
                 
             </div>
             <div class="p-10">
-                <img src="../assets/image/port_folio_grid/Feature_Image_2.png" alt="">
+                <img src="../assets/image/port_folio_grid/Feature_Image_2.png" alt="photo">
                 <div class=" relative config_1_ pt-32 pb-5  pl-7 w-full ">
                     <div class=" text-white font_rufin text-4xl">
                         <span class="">Option of natural </span>
@@ -49,7 +49,7 @@
         </div>
         <div class=" flex flex-row-reverse px-20">
             <div class="p-10">
-                <img src="../assets/image/port_folio_grid/Feature_Image_4.png" alt="">
+                <img src="../assets/image/port_folio_grid/Feature_Image_4.png" alt="photo">
                 <div class=" relative config_ pt-32 pb-5 pl-7 w-full ">
                     <div class=" text-white  text-4xl flex flex-col font_rufin">
                         <span class="">Strip Steak With Rosemary </span>
@@ -63,7 +63,7 @@
                 
             </div>
             <div class="p-10">
-                <img src="../assets/image/port_folio_grid/Feature_Image_3.png" alt="">
+                <img src="../assets/image/port_folio_grid/Feature_Image_3.png" alt="photo">
                 <div class=" relative config_1_ pt-32 pb-5  pl-7 w-full ">
                     <div class=" text-white font_rufin text-4xl">
                         <span class="">Best pumpkin for </span>
@@ -78,7 +78,7 @@
         </div>
         <div class=" flex flex-row px-20">
             <div class="p-10">
-                <img src="../assets/image/port_folio_grid/Feature_Image_5.png" alt="">
+                <img src="../assets/image/port_folio_grid/Feature_Image_5.png" alt="photo">
                 <div class=" relative config_ pt-32 pb-5 pl-7 w-full ">
                     <div class=" text-white  text-4xl flex flex-col font_rufin">
                         <span class="">Braised Sliced Abalone,Fish</span>
@@ -92,7 +92,7 @@
                 
             </div>
             <div class="p-10">
-                <img src="../assets/image/port_folio_grid/Feature_Image_6.png" alt="">
+                <img src="../assets/image/port_folio_grid/Feature_Image_6.png" alt="photo">
                 <div class=" relative config_ pt-32 pb-5 pl-7 w-full ">
                     <div class=" text-white  text-4xl flex flex-col font_rufin">
                         <span class="">Pan Fried Live Prawn with </span>
