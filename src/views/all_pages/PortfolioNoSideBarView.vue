@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col w-full h-auto overflow-hidden  ">  
-        <div id="container_navigation" class=" flex-col items-center font_rufin h-screen text-white flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../assets/image/port_folio_no_side_bar/Image.png')})`}" >
+        <div id="container_navigation" class=" flex-col items-center font_rufin h-screen text-white flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../../assets/image/port_folio_no_side_bar/Image.png')})`}" >
             <span class=" text-8xl">Deep Sea Snow White </span>
             <span class=" text-8xl">Cod Fillet</span>
             <div class=" absolute -bottom-9">
@@ -13,7 +13,7 @@
         <div class=" px-20 h-screen z-10">
             <div class=" flex flex-row py-36">
                 <div class="flex">    
-                    <img class=" w-96" src="../assets/image/port_folio_no_side_bar/Image_1.png" alt="photo">
+                    <img class=" w-96" src="../../assets/image/port_folio_no_side_bar/Image_1.png" alt="photo">
                 </div>
                 <div class=" flex flex-col w-2/3">
                     <div class=" w-full flex justify-end ">    
@@ -33,7 +33,7 @@
         <div class=" relative  px-20 h-screen">
             <div class=" config_2_">
                 <div class=" flex flex-row h-full justify-center">
-                    <img class=" pr-6" src="../assets/image/port_folio_no_side_bar/Image_2.png" alt="photo">
+                    <img class=" pr-6" src="../../assets/image/port_folio_no_side_bar/Image_2.png" alt="photo">
                     <div class=" flex h-full justify-end pb-20  flex-col" style=" height:90vh">
                         <span class=" font_rufin text-5xl font-semibold">The Best Taste</span>
                         <span class=" text-gray-500 font-semibold">Lorem ipsum dolor sit amet, consectetur. </span>
@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class=" flex justify-center mt-12 px-32">
-            <img src="../assets/image/port_folio_no_side_bar/bread.png" alt="photo">
+            <img src="../../assets/image/port_folio_no_side_bar/bread.png" alt="photo">
         </div>
         <div class="flex flex-row justify-between px-20 mt-14 py-14 bg_2 ">
             <div class=" flex justify-center flex-col items-center">

@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col w-full h-auto overflow-hidden  ">  
-        <div id="container_navigation" class=" flex-col items-center h-screen text-white flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../assets/image/grid_tow_col/Image.png')})`}" >
+        <div id="container_navigation" class=" flex-col items-center h-screen text-white flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../../assets/image/grid_tow_col/Image.png')})`}" >
             <div class=" flex flex-col">
                 <div>  
                   <button class="  border-2 text-white px-7  py-2">Fashion</button>
@@ -10,7 +10,7 @@
                   <span class=" text-7xl font_rufin"> Goat Meat at Home</span> 
                 </div>
                 <div class=" flex w-full items-center  py-6">
-                  <img class=" w-24" src="../assets/image/single_page_side_bare/Avatar.png" alt="photo">
+                  <img class=" w-24" src="../../assets/image/single_page_side_bare/Avatar.png" alt="photo">
                   <span class="list_2 relative ">Julie Christie</span>
                   <li class=" list_2 ml-3"><span class=" relative ">October 17,2021</span></li>
                   <li class=" list_2 ml-3"><span class=" relative ">3:33 pm</span></li>
@@ -26,11 +26,11 @@
             <span class=" text-lg pr-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.</span>
             <div class="flex flex-row pr-5 py-6 mt-10">
               <div class=" pr-7">
-                <img src="../assets/image/single_page_side_bare/Image1.png" alt="">
+                <img src="../../assets/image/single_page_side_bare/Image1.png" alt="">
               </div>
               <div class=" flex flex-col">
-                <img class=" mb-4" src="../assets/image/single_page_side_bare/Image2.png" alt="">
-                <img class=" mt-4" src="../assets/image/single_page_side_bare/Image3.png" alt="">
+                <img class=" mb-4" src="../../assets/image/single_page_side_bare/Image2.png" alt="">
+                <img class=" mt-4" src="../../assets/image/single_page_side_bare/Image3.png" alt="">
               </div>
             </div>
             <span class="text-gray-500 mt-2 pr-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
@@ -55,7 +55,7 @@
             </div>
             <div class=" flex flex-row mt-12 items-center">
               <div>
-                  <img class=" w-40" src="../assets/image/single_page_side_bare/Avatar.png" alt="photo">
+                  <img class=" w-40" src="../../assets/image/single_page_side_bare/Avatar.png" alt="photo">
               </div>
               <div class="flex flex-col ml-11 pr-14">
                 <span class=" font_rufin text-3xl font-semibold">Julie Christie</span>
@@ -99,7 +99,7 @@
             <div class="  font-semibold mt-7 text-base flex flex-col ">
               <div class=" flex flex-row my-2">
                   <div>  
-                      <img class=" w-12 h-12" src="../assets/image/port_folio_no_side_bar/bread.png" alt="">
+                      <img class=" w-12 h-12" src="../../assets/image/port_folio_no_side_bar/bread.png" alt="">
                   </div>
                   <div class=" flex flex-col ml-6">
                     <span>Vegan baked oatmeal with fresh berries</span>
@@ -108,7 +108,7 @@
               </div>
               <div class=" flex flex-row my-2">
                   <div>  
-                      <img class=" w-12 h-12" src="../assets/image/port_folio_no_side_bar/Image_1.png" alt="">
+                      <img class=" w-12 h-12" src="../../assets/image/port_folio_no_side_bar/Image_1.png" alt="">
                   </div>
                   <div class=" flex flex-col ml-6">
                     <span>Vegan baked oatmeal with fresh berries</span>
@@ -117,7 +117,7 @@
               </div>
               <div class=" flex flex-row my-2">
                   <div>  
-                      <img class=" w-12 h-12" src="../assets/image/port_folio_no_side_bar/Image_2.png" alt="">
+                      <img class=" w-12 h-12" src="../../assets/image/port_folio_no_side_bar/Image_2.png" alt="">
                   </div>
                   <div class=" flex flex-col ml-6">
                     <span>Vegan baked oatmeal with fresh berries</span>
@@ -126,7 +126,7 @@
               </div>
               <div class=" flex flex-row my-2">
                   <div>  
-                      <img class=" w-12 h-12" src="../assets/image/home/Image_3.png" alt="">
+                      <img class=" w-12 h-12" src="../../assets/image/home/Image_3.png" alt="">
                   </div>
                   <div class=" flex flex-col ml-6">
                     <span>Vegan baked oatmeal with fresh berries</span>
@@ -152,13 +152,13 @@
           </div>
         </div>
         <div class=" mt-28">
-          <img src="../assets/image/single_page_side_bare/Blog_PreviousNext.png" alt="">
+          <img src="../../assets/image/single_page_side_bare/Blog_PreviousNext.png" alt="">
         </div>
         <div class="flex px-20  flex-col items-center mt-24">
           <div class="w-full flex font_rufin text-4xl font-bold justify-center">5 Comments</div>
           <div class="flex flex-row w-4/5 mt-5">
             <div>
-              <img src="../assets/image/grid_tow_col/Avatar3.png" alt="">
+              <img src="../../assets/image/grid_tow_col/Avatar3.png" alt="">
             </div>
             <div class=" w-full ml-5 flex flex-col">
               <div class="flex flex-row justify-between">
@@ -171,7 +171,7 @@
           </div>
           <div class="flex flex-row w-3/4 mt-5 ml-16">
             <div>
-              <img src="../assets/image/grid_tow_col/Avatar.png" alt="">
+              <img src="../../assets/image/grid_tow_col/Avatar.png" alt="">
             </div>
             <div class=" w-full ml-5 flex flex-col">
               <div class="flex flex-row justify-between">
@@ -184,7 +184,7 @@
           </div>
           <div class="flex flex-row w-4/5 mt-5">
             <div>
-              <img src="../assets/image/grid_tow_col/Avatar1.png" alt="">
+              <img src="../../assets/image/grid_tow_col/Avatar1.png" alt="">
             </div>
             <div class=" w-full ml-5 flex flex-col">
               <div class="flex flex-row justify-between">
@@ -197,7 +197,7 @@
           </div>
           <div class="flex flex-row w-4/5 mt-5">
             <div>
-              <img src="../assets/image/grid_tow_col/Avatar.png" alt="">
+              <img src="../../assets/image/grid_tow_col/Avatar.png" alt="">
             </div>
             <div class=" w-full ml-5 flex flex-col">
               <div class="flex flex-row justify-between">

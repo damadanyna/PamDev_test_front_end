@@ -1,19 +1,19 @@
 <template>
   <div class="flex flex-col w-full h-auto ">  
-    <div id="container_navigation" class=" flex-col font_rufin flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../assets/image/menu/Image.png')})`}" >
+    <div id="container_navigation" class=" w-full flex-col font_rufin flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../../assets/image/menu/Image.png')})`}" >
       <span class=" text-white text-8xl font_rufin">View Our </span>
       <span class=" text-white text-8xl font_rufin">New Menu</span>
       <span class=" text-white font_rufin mt-11 text-lg">The freshest ingredients for you every day</span>
     </div>
     
-    <div class="flex flex-col h-screen">
+    <div class="flex flex-col h-screen px-20">
       <div class="w-full flex-col items-center py-14 flex justify-center">  
         <span class=" text-7xl font_rufin font-semibold">Starters</span>
         <span class=" mt-3">This is a section of your menu. Give your section a brief description</span>
       </div>
-      <div class="flex flex-row justify-between px-16">
+      <div class="flex flex-row justify-between">
         <div class="flex pr-14 pl-6">
-          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image1.png" alt="photo">
+          <img style=" width:30vw; " class=" h-auto" src="../../assets/image/menu/Image1.png" alt="photo">
         </div>
         <div>
           <div class=" flex flex-col w-full ">
@@ -37,14 +37,14 @@
       </div>
     </div>
     
-    <div class="flex flex-col h-screen mt-28">
+    <div class="flex flex-col h-screen px-20 mt-28">
       <div class="w-full flex-col items-center py-14 flex justify-center">  
         <span class=" text-7xl font_rufin font-semibold">Mains</span>
         <span class=" mt-3">This is a section of your menu. Give your section a brief description</span>
       </div>
-      <div class="flex flex-row-reverse justify-between px-16">
+      <div class="flex flex-row-reverse justify-between">
         <div class="flex pl-14 pr-6">
-          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image2.png" alt="photo">
+          <img style=" width:30vw; " class=" h-auto" src="../../assets/image/menu/Image2.png" alt="photo">
         </div>
         <div>
           <div class=" flex flex-col w-full pl-8 ">
@@ -66,14 +66,14 @@
       </div>
     </div>
 
-    <div class="flex flex-col h-screen mt-28">
+    <div class="flex flex-col h-screen px-20 mt-28">
       <div class="w-full flex-col items-center py-14 flex justify-center">  
         <span class=" text-7xl font_rufin font-semibold">Pastries & Drinks</span>
         <span class=" mt-3">This is a section of your menu. Give your section a brief description</span>
       </div>
-      <div class="flex flex-row justify-between px-16">
+      <div class="flex flex-row justify-between">
         <div class="flex pl-14 pr-6">
-          <img style=" width:30vw; " class=" h-auto" src="../assets/image/menu/Image3.png" alt="photo">
+          <img style=" width:30vw; " class=" h-auto" src="../../assets/image/menu/Image3.png" alt="photo">
         </div>
         <div>
           <div class=" flex flex-col w-full pl-8 ">
@@ -117,7 +117,7 @@
           </select>
         </div>
       </div>
-      <button class=" px-12 py-2 text-white font_rufin button1 mt-16 ">Book Now</button>
+      <button class=" px-12 py-2 bg_3 text-white font_rufin button1 mt-16 ">Book Now</button>
     </div>
   </div>
 </template>

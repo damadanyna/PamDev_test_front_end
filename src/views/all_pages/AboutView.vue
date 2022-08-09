@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col w-full h-auto overflow-hidden  ">  
-    <div id="container_navigation" class=" flex-col font_rufin items-center flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../assets/image/about/Image.png')})`}" >
+    <div id="container_navigation" class=" flex-col font_rufin items-center flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../../assets/image/about/Image.png')})`}" >
       <div class=" font_rufin flex flex-col">
         <span class=" text-white text-7xl">Who We Are</span>
         <span class=" text-white text-g w-96">The most important thing for us is to give you the comfortable dining experience</span>
@@ -20,7 +20,7 @@
           <span class=" w-8/12 text-lg mt-10 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. </span>
         </div>
         <div>
-          <img style="" src="../assets/image/about/Image_1.png" alt="photo">
+          <img style="" src="../../assets/image/about/Image_1.png" alt="photo">
         </div>
       </div>
       <div class="flex flex-row">
@@ -31,7 +31,7 @@
               <span class=" text-5xl font_rufin">Restuarant Manager</span>
               <span class=" mt-5">Jane Cooper</span>
             </div>
-              <img src="../assets/image/about/Image_2.png" alt="photo">
+              <img src="../../assets/image/about/Image_2.png" alt="photo">
             </div>
           </div>
           <div class="text-gray-500  pr-16 flex w-full justify-end "> 
@@ -44,7 +44,7 @@
             <span class=" text-5xl font_rufin">Executive Chef</span>
             <span class=" mt-5">Carson Hugn</span>
           </div>
-            <img src="../assets/image/about/Image_3.png" alt="photo">
+            <img src="../../assets/image/about/Image_3.png" alt="photo">
           </div>
           <div class="text-gray-500 pt-36 pb-36  pl-16  flex w-full justify-start "> 
             <span class=" w-80 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. </span>
@@ -66,7 +66,7 @@
       </div>
       <div class=" flex flex-row items-center">
         <div>
-          <img src="../assets/image/about/Image_4.png" alt="photo">
+          <img src="../../assets/image/about/Image_4.png" alt="photo">
         </div>
         <div class=" flex flex-col w-full justify-center px-24">
           <span class=" font_rufin text-4xl font-bold w-full ">0I.Slice</span>
@@ -80,7 +80,7 @@
             <span class=" text-gray-500 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. </span>
           </div>
           <div class=" flex pr-36">
-            <img src="../assets/image/about/Image_5.png" alt="photo">
+            <img src="../../assets/image/about/Image_5.png" alt="photo">
           </div>
         </div>
         <div class="flex flex-col-reverse pb-40 ">
@@ -89,7 +89,7 @@
             <span class=" text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. </span>
           </div>
           <div class=" flex pl-36">
-            <img src="../assets/image/about/Image_6.png" alt="photo">
+            <img src="../../assets/image/about/Image_6.png" alt="photo">
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col w-full h-auto overflow-hidden  ">  
-        <div id="container_navigation" class=" flex-col items-center  h-screen text-white flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../assets/image/grid_tow_col/Image.png')})`}" >
+        <div id="container_navigation" class=" flex-col items-center  h-screen text-white flex justify-center  px-20"  :style="{backgroundImage: `url(${require('../../assets/image/grid_tow_col/Image.png')})`}" >
             <span class=" text-8xl font_rufin">Blogs - Two Columns</span>
             <span class=" text-xl">It is easy way to create your beatiful blog for daily</span>
         </div>
@@ -11,10 +11,10 @@
               <div class="flex w-full justify-end">
                 <button class=" absolute mt-2 mr-2 px-9 py-2 text-base outline-none font_rufin ">Fashion</button>
               </div>
-              <img  src="../assets/image/home/Feature-Image.png" alt="photo">
+              <img  src="../../assets/image/home/Feature-Image.png" alt="photo">
               
               <div class=" flex w-full items-center  py-6">
-                <img class=" w-16" src="../assets/image/home/Avatar_1.png" alt="photo">
+                <img class=" w-16" src="../../assets/image/home/Avatar_1.png" alt="photo">
                 <span class="list_2 relative ">Julie Christie</span>
                 <li class=" list_2 ml-3"><span class=" relative ">October 17,2021</span></li>
                 <li class=" list_2 ml-3"><span class=" relative ">3:33 pm</span></li>
@@ -42,9 +42,9 @@
               <div class="flex w-full justify-end">
                 <button class=" absolute mt-2 mr-2 px-9 py-2 text-base outline-none font_rufin ">Fashion</button>
               </div>
-              <img  src="../assets/image/home/Feature-Image-1.png" alt="photo">
+              <img  src="../../assets/image/home/Feature-Image-1.png" alt="photo">
               <div class=" flex w-full items-center  py-6">
-                <img class=" w-16" src="../assets/image/home/Avatar_.png" alt="photo">
+                <img class=" w-16" src="../../assets/image/home/Avatar_.png" alt="photo">
                 <span class="list_2 relative ">Julie Christie</span>
                 <li class=" list_2 ml-3"><span class=" relative ">October 17,2021</span></li>
                 <li class=" list_2 ml-3"><span class=" relative ">3:33 pm</span></li>
@@ -79,10 +79,10 @@
               <div class="flex w-full justify-end">
                 <button class=" absolute mt-2 mr-2 px-9 py-2 text-base outline-none font_rufin ">Fashion</button>
               </div>
-              <img  src="../assets/image/grid_tow_col/Feature1.png" alt="photo">
+              <img  src="../../assets/image/grid_tow_col/Feature1.png" alt="photo">
               
               <div class=" flex w-full items-center  py-6">
-                <img class=" w-16" src="../assets/image/grid_tow_col/Avatar.png" alt="photo">
+                <img class=" w-16" src="../../assets/image/grid_tow_col/Avatar.png" alt="photo">
                 <span class="list_2 relative ">Julie Christie</span>
                 <li class=" list_2 ml-3"><span class=" relative ">October 17,2021</span></li>
                 <li class=" list_2 ml-3"><span class=" relative ">3:33 pm</span></li>
@@ -110,9 +110,9 @@
               <div class="flex w-full justify-end">
                 <button class=" absolute mt-2 mr-2 px-9 py-2 text-base outline-none font_rufin ">Fashion</button>
               </div>
-              <img  src="../assets/image/grid_tow_col/Feature2.png" alt="photo">
+              <img  src="../../assets/image/grid_tow_col/Feature2.png" alt="photo">
               <div class=" flex w-full items-center  py-6">
-                <img class=" w-16" src="../assets/image/grid_tow_col/Avatar1.png" alt="photo">
+                <img class=" w-16" src="../../assets/image/grid_tow_col/Avatar1.png" alt="photo">
                 <span class="list_2 relative ">Julie Christie</span>
                 <li class=" list_2 ml-3"><span class=" relative ">October 17,2021</span></li>
                 <li class=" list_2 ml-3"><span class=" relative ">3:33 pm</span></li>
@@ -147,10 +147,10 @@
               <div class="flex w-full justify-end">
                 <button class=" absolute mt-2 mr-2 px-9 py-2 text-base outline-none font_rufin ">Fashion</button>
               </div>
-              <img  src="../assets/image/grid_tow_col/Feature3.png" alt="photo">
+              <img  src="../../assets/image/grid_tow_col/Feature3.png" alt="photo">
               
               <div class=" flex w-full items-center  py-6">
-                <img class=" w-16" src="../assets/image/grid_tow_col/Avatar3.png" alt="photo">
+                <img class=" w-16" src="../../assets/image/grid_tow_col/Avatar3.png" alt="photo">
                 <span class="list_2 relative ">Julie Christie</span>
                 <li class=" list_2 ml-3"><span class=" relative ">October 17,2021</span></li>
                 <li class=" list_2 ml-3"><span class=" relative ">3:33 pm</span></li>
@@ -178,9 +178,9 @@
               <div class="flex w-full justify-end">
                 <button class=" absolute mt-2 mr-2 px-9 py-2 text-base outline-none font_rufin ">Fashion</button>
               </div>
-              <img  src="../assets/image/grid_tow_col/Feature4.png" alt="photo">
+              <img  src="../../assets/image/grid_tow_col/Feature4.png" alt="photo">
               <div class=" flex w-full items-center  py-6">
-                <img class=" w-16" src="../assets/image/grid_tow_col/Avatar3.png" alt="photo">
+                <img class=" w-16" src="../../assets/image/grid_tow_col/Avatar3.png" alt="photo">
                 <span class="list_2 relative ">Julie Christie</span>
                 <li class=" list_2 ml-3"><span class=" relative ">October 17,2021</span></li>
                 <li class=" list_2 ml-3"><span class=" relative ">3:33 pm</span></li>

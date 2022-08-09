@@ -1,20 +1,26 @@
 <template>
-  <div class="flex w-full ">
-    <header_comp></header_comp>
-    <menu_nav v-if="this.$store.state.show_menu" />
-    <home />
-  </div>
+    <login_vue  v-if="!this.$store.state.loged" ></login_vue>
+    <div v-else >
+      <header_comp  v-if="!this.$store.state.show_menu"></header_comp>
+      <menu_nav v-else />
+      <div class="flex flex-col"> 
+        <router-view  v-if="!this.$store.state.show_menu"></router-view>
+        <fouter_nav  v-if="!this.$store.state.show_menu"/>
+      </div>
+    </div>
 </template>
 
 <script>
 import menu_nav from './components/MenuViews.vue'
 import header_comp from './components/HeaderView.vue'
-import home from './views/SinglePostWithSide.vue'
+import fouter_nav from './components/FooterView.vue'
+import login_vue from  './views/auth_pages/loginPageView.vue'
 export default {
   components:{
     menu_nav,
-    home,
-    header_comp
+    header_comp,
+    fouter_nav,
+    login_vue
   }
 }
 </script>

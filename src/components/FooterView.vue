@@ -1,34 +1,41 @@
 <template>
-  <div id="container_navigation" class=" font_rufin flex items-center justify-between px-20"  :style="{backgroundImage: `url(${require('../assets/image/navigation/Image.png')})`}" >
-    <div @click="this.$store.state.show_menu=false" class=" flex absolute top-8 left-8 cursor-pointer transform hover:scale-150">
-      <svg class=" " width="24" height="36" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5009 15.3906L31.5086 1.4815L30.0894 0.0722961L16.0817 13.9814L2.07399 0.072342L0.654785 1.48155L14.6625 15.3906L1.02282 28.9342L2.44202 30.3434L16.0817 16.7998L29.7214 30.3435L31.1406 28.9342L17.5009 15.3906Z" fill="black"/>
-      </svg>
-
+<div class="flex flex-col bg_1 px-20 text-white">  
+  <div class="flex flex-row  justify-between my-11 items-center">
+    <div class="font_rufin flex-col text-4xl font-bold">
+        <div>Food</div>
+        <div>Zero.</div>
     </div>
-    <div class="flex flex-col text-white ml-20 ">
-      <li class=" fill-current text-2xl uppercase mt-2 font-semibold  py-1"><router-link @click="this.$store.state.show_menu=false" class=" text-5xl  -left-3 hover:text-yellow-500" to="/">home</router-link></li>
-      <li class=" fill-current text-2xl uppercase mt-2 font-semibold  py-1"><router-link @click="this.$store.state.show_menu=false" class=" text-5xl  -left-3 hover:text-yellow-500" to="/menu">menu</router-link></li>
-      <li class=" fill-current text-2xl uppercase mt-2 font-semibold  py-1"><router-link @click="this.$store.state.show_menu=false" class=" text-5xl  -left-3 hover:text-yellow-500" to="/blogOneColumn">blogs</router-link></li>
-      <div class=" flex  py-1 flex-col pl-5 ml-3 text-lg">
-          <router-link @click="this.$store.state.show_menu=false" to="/blogOneColumn" class=" text hover:text-yellow-500">1 Column</router-link>
-          <router-link @click="this.$store.state.show_menu=false" to="/blogTwoColumn" class=" text hover:text-yellow-500">2 Column</router-link>
-          <router-link @click="this.$store.state.show_menu=false" to="/singlePostWithSide" class=" hover:text-yellow-500 text">Sidebar Post</router-link>
-      </div>
-      <li class=" fill-current text-2xl uppercase mt-2 font-semibold  py-1"><router-link @click="this.$store.state.show_menu=false" class=" text-5xl  -left-3 hover:text-yellow-500" to="/about">about</router-link></li>
-      <li class=" fill-current text-2xl uppercase mt-2 font-semibold  py-1"><router-link @click="this.$store.state.show_menu=false" class=" text-5xl  -left-3 hover:text-yellow-500" to="/contact">contact</router-link></li>
+    <div class="flex flex-col ">
+        <div class="  font_rufin text-2xl">
+            <span>Contact</span>
+        </div>
+        <div class=" flex flex-col text-sm opacity-60 mt-6">
+            <span>+1+86 852 346 000 </span>
+            <span>info@foodzero.com</span>
+        </div>
+        <div class=" mt-6 flex flex-col text-sm opacity-60 ">
+            <span>1959 Sepulveda Blvd.</span>
+            <span>Culver City, CA, 90230</span>
+        </div>
     </div>
-    <div class="flex flex-col w-48 mt-36">
-      <span class=" border-b-2 text-2xl font-semibold text-white border-dotted mb-6">Contact</span>
-      <div class="flex flex-col font_lato mb-6">
-        <span class=" text-white border-dotted">+86 852 346 000</span>
-        <span class=" text-white border-dotted">info@foodzero.com</span>
-      </div>
-      <div class="flex flex-col font_lato mb-4">
-        <span class=" text-white border-dotted">1959 Sepulveda Blvd.</span>
-        <span class=" text-white border-dotted">Culver City, CA, 90230</span>
-      </div>
-      <div class="flex flex-row items-center font_lato">
+    <div class=" flex flex-col">
+        <div class=" text-2xl mb-4 font_rufin">    
+            <span> Never Miss a Recipe</span>
+        </div>
+        <div class=" flex flex-col mt-8">
+            <div class=" flex flex-row">
+                <input placeholder="Email Address" class=" placeholder-white bg-transparent mr-5 border-2 border-white px-6 py-2" type="email">
+                <button class=" bg_3  font_rufin px-8 py-2"> Subscribe</button>
+            </div>
+            <span class=" text-xs mt-4 opacity-50">Join our subscribers and get best recipe delivered each week!</span>
+        </div>
+    </div>      
+  </div>
+  <div class="flex border-t-2 border-dotted border-white py-11 justify-between">
+    <div class="">
+        <span>© 2020 Zero Inc. All rights Reserved</span>
+    </div>
+    <div class="flex flex-row items-center font_lato">
         <div class="mr-4 transform hover:scale-150 items-center cursor-pointer flex">
           <svg class="" width="18" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M8.23327 0C3.71382 0 0 3.70873 0 8.23327V19.7667C0 24.2862 3.70873 28 8.23327 28H19.7667C24.2862 28 28 24.2913 28 19.7667V8.23455C28 3.71382 24.2913 0 19.7667 0H8.23327ZM8.23327 2.54545H19.7667C20.5139 2.54445 21.254 2.69088 21.9445 2.97637C22.6351 3.26185 23.2625 3.68077 23.7909 4.20914C24.3192 4.7375 24.7381 5.36492 25.0236 6.05545C25.3091 6.74598 25.4555 7.48606 25.4545 8.23327V19.7667C25.4555 20.5139 25.3091 21.254 25.0236 21.9445C24.7381 22.6351 24.3192 23.2625 23.7909 23.7909C23.2625 24.3192 22.6351 24.7381 21.9445 25.0236C21.254 25.3091 20.5139 25.4555 19.7667 25.4545H8.23455C7.48722 25.4557 6.74701 25.3094 6.05633 25.024C5.36565 24.7386 4.73808 24.3197 4.20959 23.7913C3.68109 23.2629 3.26205 22.6355 2.97649 21.9448C2.69092 21.2542 2.54445 20.5141 2.54545 19.7667C2.54545 19.7667 2.54663 8.98187 2.54545 8.23455C2.54428 7.48722 2.69059 6.74701 2.976 6.05633C3.26141 5.36565 3.6803 4.73808 4.20868 4.20959C4.73706 3.68109 5.36454 3.26205 6.05515 2.97649C6.74577 2.69092 7.48595 2.54445 8.23327 2.54545ZM21.5167 5.33018C21.3651 5.32951 21.2149 5.35887 21.0747 5.41658C20.9345 5.47429 20.8071 5.5592 20.6999 5.66641C20.5927 5.77362 20.5077 5.901 20.45 6.04121C20.3923 6.18141 20.363 6.33166 20.3636 6.48327C20.3636 7.12473 20.8753 7.63636 21.5167 7.63636C21.6684 7.63721 21.8188 7.60796 21.9592 7.55033C22.0995 7.4927 22.2271 7.40781 22.3344 7.30059C22.4418 7.19336 22.5268 7.06592 22.5846 6.92563C22.6424 6.78535 22.6718 6.63499 22.6711 6.48327C22.6718 6.33155 22.6424 6.1812 22.5846 6.04091C22.5268 5.90062 22.4418 5.77318 22.3344 5.66596C22.2271 5.55873 22.0995 5.47385 21.9592 5.41621C21.8188 5.35858 21.6684 5.32934 21.5167 5.33018ZM14 6.36364C9.8 6.36364 6.36364 9.8 6.36364 14C6.36364 18.2 9.8 21.6364 14 21.6364C18.2 21.6364 21.6364 18.2 21.6364 14C21.6364 9.8 18.2 6.36364 14 6.36364ZM14 8.90909C16.8293 8.90909 19.0909 11.1707 19.0909 14C19.0909 16.8293 16.8293 19.0909 14 19.0909C11.1707 19.0909 8.90909 16.8293 8.90909 14C8.90909 11.1707 11.1707 8.90909 14 8.90909Z" fill="white"/>
@@ -51,32 +58,17 @@
           <path d="M14 0C9.94431 0 6.36031 0.429 4.17308 0.7568C2.36385 1.0274 0.904615 2.4189 0.571846 4.2625C0.290769 5.8311 0 8.1257 0 11C0 13.8743 0.290769 16.17 0.571846 17.7375C0.904615 19.5811 2.36385 20.977 4.17308 21.2443C6.37 21.5699 9.96585 22 14 22C18.0342 22 21.6311 21.571 23.8269 21.2432C25.6362 20.977 27.0954 19.5811 27.4282 17.7375C27.7092 16.1645 28 13.8655 28 11C28 8.1345 27.7135 5.8355 27.4282 4.2625C27.0954 2.4189 25.6362 1.0274 23.8269 0.7557C21.6397 0.4301 18.0546 0 14 0ZM14 2.2C17.9125 2.2 21.4082 2.6081 23.5243 2.9216C23.9641 2.98581 24.3729 3.18968 24.693 3.50436C25.0131 3.81904 25.2281 4.22858 25.3077 4.675C25.5683 6.127 25.8462 8.2797 25.8462 11C25.8462 13.7159 25.5683 15.873 25.3077 17.325C25.2295 17.772 25.0149 18.1824 24.6946 18.4973C24.3743 18.8122 23.9646 19.0156 23.5243 19.0784C21.3985 19.3919 17.8866 19.8 14 19.8C10.1123 19.8 6.59615 19.3919 4.47569 19.0784C4.03567 19.0148 3.62648 18.8112 3.30631 18.4964C2.98613 18.1816 2.77128 17.7717 2.69231 17.325C2.43169 15.873 2.15385 13.7247 2.15385 11C2.15385 8.272 2.43169 6.127 2.69231 4.675C2.77128 4.2283 2.98613 3.81841 3.30631 3.50362C3.62648 3.18883 4.03567 2.98517 4.47569 2.9216C6.58754 2.6081 10.0875 2.2 14 2.2ZM10.7692 4.7091V17.292L12.3846 16.3636L19.9231 11.9636L21.5385 11L19.9231 10.0375L12.3846 5.6375L10.7692 4.7091ZM12.9231 8.4909L17.1974 11L12.9231 13.5091V8.4909Z" fill="white"/>
           </svg>
         </div>
-      </div>
-      <div @click="logout()" class=" text-2xl text-white items-center justify-center cursor-pointer hover:bg-red-500 mt-6 font_rufin flex flex-row">
-        <svg class=" w-14" viewBox="0 0 24 24"><path  class=" fill-current text-white" d="m16.56 5.44-1.45 1.45A5.969 5.969 0 0 1 18 12a6 6 0 0 1-6 6 6 6 0 0 1-6-6c0-2.17 1.16-4.06 2.88-5.12L7.44 5.44A7.961 7.961 0 0 0 4 12a8 8 0 0 0 8 8 8 8 0 0 0 8-8c0-2.72-1.36-5.12-3.44-6.56M13 3h-2v10h2" /></svg>
-        <span>Logout</span>
-      </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
-  methods:{
-    logout(){
-            this.$store.state.loged=false
-    }
-  }
-}
 
+}
 </script>
 
-<style  scoped>
+<style>
 
- li router-link-active {
-  color:#9CAA00;
-  cursor: pointer;
-}
 </style>
